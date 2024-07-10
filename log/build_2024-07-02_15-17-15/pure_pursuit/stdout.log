@@ -1,0 +1,62 @@
+running egg_info
+creating ../build/pure_pursuit/pure_pursuit.egg-info
+writing ../build/pure_pursuit/pure_pursuit.egg-info/PKG-INFO
+writing dependency_links to ../build/pure_pursuit/pure_pursuit.egg-info/dependency_links.txt
+writing entry points to ../build/pure_pursuit/pure_pursuit.egg-info/entry_points.txt
+writing requirements to ../build/pure_pursuit/pure_pursuit.egg-info/requires.txt
+writing top-level names to ../build/pure_pursuit/pure_pursuit.egg-info/top_level.txt
+writing manifest file '../build/pure_pursuit/pure_pursuit.egg-info/SOURCES.txt'
+reading manifest file '../build/pure_pursuit/pure_pursuit.egg-info/SOURCES.txt'
+writing manifest file '../build/pure_pursuit/pure_pursuit.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sdc/Desktop/mocap4ros2_ws/Archive/build/pure_pursuit/build
+creating /home/sdc/Desktop/mocap4ros2_ws/Archive/build/pure_pursuit/build/lib
+creating /home/sdc/Desktop/mocap4ros2_ws/Archive/build/pure_pursuit/build/lib/pure_pursuit
+copying pure_pursuit/__init__.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/build/pure_pursuit/build/lib/pure_pursuit
+copying pure_pursuit/purepursuit_node.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/build/pure_pursuit/build/lib/pure_pursuit
+copying pure_pursuit/variable_speed_node.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/build/pure_pursuit/build/lib/pure_pursuit
+copying pure_pursuit/test_purepursuit_node.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/build/pure_pursuit/build/lib/pure_pursuit
+copying pure_pursuit/test_paths.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/build/pure_pursuit/build/lib/pure_pursuit
+copying pure_pursuit/purepursuit.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/build/pure_pursuit/build/lib/pure_pursuit
+copying pure_pursuit/tf_updater_node.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/build/pure_pursuit/build/lib/pure_pursuit
+running install
+running install_lib
+creating /home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/lib/python3.10/site-packages/pure_pursuit
+copying /home/sdc/Desktop/mocap4ros2_ws/Archive/build/pure_pursuit/build/lib/pure_pursuit/__init__.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/lib/python3.10/site-packages/pure_pursuit
+copying /home/sdc/Desktop/mocap4ros2_ws/Archive/build/pure_pursuit/build/lib/pure_pursuit/purepursuit_node.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/lib/python3.10/site-packages/pure_pursuit
+copying /home/sdc/Desktop/mocap4ros2_ws/Archive/build/pure_pursuit/build/lib/pure_pursuit/variable_speed_node.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/lib/python3.10/site-packages/pure_pursuit
+copying /home/sdc/Desktop/mocap4ros2_ws/Archive/build/pure_pursuit/build/lib/pure_pursuit/test_purepursuit_node.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/lib/python3.10/site-packages/pure_pursuit
+copying /home/sdc/Desktop/mocap4ros2_ws/Archive/build/pure_pursuit/build/lib/pure_pursuit/test_paths.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/lib/python3.10/site-packages/pure_pursuit
+copying /home/sdc/Desktop/mocap4ros2_ws/Archive/build/pure_pursuit/build/lib/pure_pursuit/purepursuit.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/lib/python3.10/site-packages/pure_pursuit
+copying /home/sdc/Desktop/mocap4ros2_ws/Archive/build/pure_pursuit/build/lib/pure_pursuit/tf_updater_node.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/lib/python3.10/site-packages/pure_pursuit
+byte-compiling /home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/lib/python3.10/site-packages/pure_pursuit/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/lib/python3.10/site-packages/pure_pursuit/purepursuit_node.py to purepursuit_node.cpython-310.pyc
+byte-compiling /home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/lib/python3.10/site-packages/pure_pursuit/variable_speed_node.py to variable_speed_node.cpython-310.pyc
+byte-compiling /home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/lib/python3.10/site-packages/pure_pursuit/test_purepursuit_node.py to test_purepursuit_node.cpython-310.pyc
+byte-compiling /home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/lib/python3.10/site-packages/pure_pursuit/test_paths.py to test_paths.cpython-310.pyc
+byte-compiling /home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/lib/python3.10/site-packages/pure_pursuit/purepursuit.py to purepursuit.cpython-310.pyc
+byte-compiling /home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/lib/python3.10/site-packages/pure_pursuit/tf_updater_node.py to tf_updater_node.cpython-310.pyc
+running install_data
+creating /home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/share/ament_index
+creating /home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/share/ament_index/resource_index
+creating /home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/share/ament_index/resource_index/packages
+copying resource/pure_pursuit -> /home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/share/ament_index/resource_index/packages
+copying package.xml -> /home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/share/pure_pursuit
+creating /home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/share/pure_pursuit/launch
+copying launch/purepursuit_movement_launch.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/share/pure_pursuit/launch
+copying launch/purepursuit_launch.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/share/pure_pursuit/launch
+creating /home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/share/pure_pursuit/config
+copying config/purepursuit.yaml -> /home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/share/pure_pursuit/config
+copying config/purepursuit_carla.yaml -> /home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/share/pure_pursuit/config
+creating /home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/share/pure_pursuit/config/rviz
+copying config/rviz/rviz_config.rviz -> /home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/share/pure_pursuit/config/rviz
+copying config/rviz/purepursuit_rviz2.rviz -> /home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/share/pure_pursuit/config/rviz
+running install_egg_info
+Copying ../build/pure_pursuit/pure_pursuit.egg-info to /home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/lib/python3.10/site-packages/pure_pursuit-0.0.0-py3.10.egg-info
+running install_scripts
+Installing path_tracker script to /home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/lib/pure_pursuit
+Installing testpath_pub script to /home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/lib/pure_pursuit
+Installing tf_broadcaster script to /home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/lib/pure_pursuit
+Installing variable_speed script to /home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/lib/pure_pursuit
+writing list of installed files to '/home/sdc/Desktop/mocap4ros2_ws/Archive/build/pure_pursuit/install.log'

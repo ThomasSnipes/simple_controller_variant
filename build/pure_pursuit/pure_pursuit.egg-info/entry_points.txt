@@ -1,0 +1,6 @@
+[console_scripts]
+path_tracker = pure_pursuit.purepursuit_node:main
+testpath_pub = pure_pursuit.test_purepursuit_node:main
+tf_broadcaster = pure_pursuit.tf_updater_node:main
+variable_speed = pure_pursuit.variable_speed_node:main
+

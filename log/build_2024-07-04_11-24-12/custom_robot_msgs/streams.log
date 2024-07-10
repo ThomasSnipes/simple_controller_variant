@@ -1,0 +1,49 @@
+[0.098s] Invoking command in '/home/sdc/Desktop/mocap4ros2_ws/Archive/build/custom_robot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller:/home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit:/home/sdc/Desktop/mocap4ros2_ws/install/target_pid_controller:/home/sdc/Desktop/mocap4ros2_ws/install/pure_pursuit:/home/sdc/Desktop/mocap4ros2_ws/install/rqt_joint_trajectory_controller:/home/sdc/Desktop/mocap4ros2_ws/install/rqt_controller_manager:/home/sdc/Desktop/mocap4ros2_ws/install/ros2controlcli:/home/sdc/Desktop/mocap4ros2_ws/install/ros2_controllers_test_nodes:/home/sdc/Desktop/mocap4ros2_ws/install/mocap4r2cli:/home/sdc/Desktop/mocap4ros2_ws/install/learning_tf2_py:/opt/ros/humble /usr/bin/cmake --build /home/sdc/Desktop/mocap4ros2_ws/Archive/build/custom_robot_msgs -- -j16 -l16
+[0.116s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.198s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.205s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.206s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.224s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.345s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.345s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.345s]   custom_robot_msgs --arguments-file
+[0.345s]   /home/sdc/Desktop/mocap4ros2_ws/Archive/build/custom_robot_msgs/rosidl_adapter__arguments__custom_robot_msgs.json
+[0.345s]   --output-dir
+[0.345s]   /home/sdc/Desktop/mocap4ros2_ws/Archive/build/custom_robot_msgs/rosidl_adapter/custom_robot_msgs
+[0.345s]   --output-file
+[0.345s]   /home/sdc/Desktop/mocap4ros2_ws/Archive/build/custom_robot_msgs/rosidl_adapter/custom_robot_msgs.idls)
+[0.345s]   returned error code 1:
+[0.345s] 
+[0.345s]   Traceback (most recent call last):
+[0.346s] 
+[0.346s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.346s]       return _run_code(code, main_globals, None,
+[0.346s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.346s]       exec(code, run_globals)
+[0.346s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.346s]       sys.exit(main())
+[0.346s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.346s]       abs_idl_file = convert_to_idl(
+[0.346s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.346s]       return convert_msg_to_idl(
+[0.346s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[0.346s]       msg = parse_message_string(package_name, input_file.stem, content)
+[0.346s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 544, in parse_message_string
+[0.346s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[0.346s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 388, in __init__
+[0.346s]       self.base_type = BaseType(
+[0.346s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[0.346s]       raise InvalidResourceName(
+[0.347s] 
+[0.347s]   rosidl_adapter.parser.InvalidResourceName: 'robot_command_msgs' is an
+[0.347s]   invalid message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.347s] 
+[0.347s] Call Stack (most recent call first):
+[0.347s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.347s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[0.347s] 
+[0.347s] [0m
+[0.347s] -- Configuring incomplete, errors occurred!
+[0.347s] See also "/home/sdc/Desktop/mocap4ros2_ws/Archive/build/custom_robot_msgs/CMakeFiles/CMakeOutput.log".
+[0.348s] gmake: *** [Makefile:963: cmake_check_build_system] Error 1
+[0.350s] Invoked command in '/home/sdc/Desktop/mocap4ros2_ws/Archive/build/custom_robot_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller:/home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit:/home/sdc/Desktop/mocap4ros2_ws/install/target_pid_controller:/home/sdc/Desktop/mocap4ros2_ws/install/pure_pursuit:/home/sdc/Desktop/mocap4ros2_ws/install/rqt_joint_trajectory_controller:/home/sdc/Desktop/mocap4ros2_ws/install/rqt_controller_manager:/home/sdc/Desktop/mocap4ros2_ws/install/ros2controlcli:/home/sdc/Desktop/mocap4ros2_ws/install/ros2_controllers_test_nodes:/home/sdc/Desktop/mocap4ros2_ws/install/mocap4r2cli:/home/sdc/Desktop/mocap4ros2_ws/install/learning_tf2_py:/opt/ros/humble /usr/bin/cmake --build /home/sdc/Desktop/mocap4ros2_ws/Archive/build/custom_robot_msgs -- -j16 -l16

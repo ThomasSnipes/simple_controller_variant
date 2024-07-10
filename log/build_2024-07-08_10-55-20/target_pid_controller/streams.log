@@ -1,0 +1,26 @@
+[0.748s] Invoking command in '/home/sdc/Desktop/mocap4ros2_ws/Archive/target_pid_controller': PYTHONPATH=/home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/prefix_override:/home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/target_pid_controller build --build-base /home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/build install --record /home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/install.log --single-version-externally-managed
+[0.897s] running egg_info
+[0.897s] writing ../build/target_pid_controller/target_pid_controller.egg-info/PKG-INFO
+[0.897s] writing dependency_links to ../build/target_pid_controller/target_pid_controller.egg-info/dependency_links.txt
+[0.898s] writing entry points to ../build/target_pid_controller/target_pid_controller.egg-info/entry_points.txt
+[0.898s] writing requirements to ../build/target_pid_controller/target_pid_controller.egg-info/requires.txt
+[0.898s] writing top-level names to ../build/target_pid_controller/target_pid_controller.egg-info/top_level.txt
+[0.898s] reading manifest file '../build/target_pid_controller/target_pid_controller.egg-info/SOURCES.txt'
+[0.899s] writing manifest file '../build/target_pid_controller/target_pid_controller.egg-info/SOURCES.txt'
+[0.899s] running build
+[0.899s] running build_py
+[0.899s] copying target_pid_controller/pid_controller_node.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/build/lib/target_pid_controller
+[0.900s] running install
+[0.900s] running install_lib
+[0.900s] copying /home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/build/lib/target_pid_controller/pid_controller_node.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/python3.10/site-packages/target_pid_controller
+[0.900s] byte-compiling /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/python3.10/site-packages/target_pid_controller/pid_controller_node.py to pid_controller_node.cpython-310.pyc
+[0.901s] running install_data
+[0.901s] copying launch/target_controller_sim_launch.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/share/target_pid_controller/launch
+[0.901s] running install_egg_info
+[0.902s] removing '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/python3.10/site-packages/target_pid_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[0.902s] Copying ../build/target_pid_controller/target_pid_controller.egg-info to /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/python3.10/site-packages/target_pid_controller-0.0.0-py3.10.egg-info
+[0.903s] running install_scripts
+[0.914s] Installing target_controller script to /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/target_pid_controller
+[0.914s] Installing tf_broadcaster script to /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/target_pid_controller
+[0.915s] writing list of installed files to '/home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/install.log'
+[0.958s] Invoked command in '/home/sdc/Desktop/mocap4ros2_ws/Archive/target_pid_controller' returned '0': PYTHONPATH=/home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/prefix_override:/home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/target_pid_controller build --build-base /home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/build install --record /home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/install.log --single-version-externally-managed

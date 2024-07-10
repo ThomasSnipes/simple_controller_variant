@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<?xml version="1.0"?>
+<package format="3">
+  <name>target_pid_controller</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="sdc@todo.todo">sdc</maintainer>
+  <license>TODO: License declaration</license>
+
+  <!-- Dependencies needed during build time -->
+  <build_depend>ament_cmake</build_depend>
+  <build_depend>ament_cmake_python</build_depend>
+  <build_depend>ament_cmake_auto</build_depend>
+  <build_depend>rosidl_default_generators</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>ackermann_msgs</build_depend>
+  <build_depend>custom_robot_msgs</build_depend>
+
+  <!-- Dependencies needed during runtime -->
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>python3</exec_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>ackermann_msgs</exec_depend>
+  <exec_depend>custom_robot_msgs</exec_depend>
+
+  <exec_depend>python3-numpy</exec_depend>
+  <exec_depend>python3-transforms3d</exec_depend>
+
+  <!-- Testing dependencies -->
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <!-- Export information -->
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
+

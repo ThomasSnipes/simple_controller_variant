@@ -1,0 +1,24 @@
+[0.730s] Invoking command in '/home/sdc/Desktop/mocap4ros2_ws/Archive/pure_pursuit': PYTHONPATH=/home/sdc/Desktop/mocap4ros2_ws/Archive/build/pure_pursuit/prefix_override:/home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/pure_pursuit build --build-base /home/sdc/Desktop/mocap4ros2_ws/Archive/build/pure_pursuit/build install --record /home/sdc/Desktop/mocap4ros2_ws/Archive/build/pure_pursuit/install.log --single-version-externally-managed
+[0.887s] running egg_info
+[0.887s] writing ../build/pure_pursuit/pure_pursuit.egg-info/PKG-INFO
+[0.887s] writing dependency_links to ../build/pure_pursuit/pure_pursuit.egg-info/dependency_links.txt
+[0.887s] writing entry points to ../build/pure_pursuit/pure_pursuit.egg-info/entry_points.txt
+[0.888s] writing requirements to ../build/pure_pursuit/pure_pursuit.egg-info/requires.txt
+[0.888s] writing top-level names to ../build/pure_pursuit/pure_pursuit.egg-info/top_level.txt
+[0.888s] reading manifest file '../build/pure_pursuit/pure_pursuit.egg-info/SOURCES.txt'
+[0.888s] writing manifest file '../build/pure_pursuit/pure_pursuit.egg-info/SOURCES.txt'
+[0.888s] running build
+[0.889s] running build_py
+[0.889s] running install
+[0.889s] running install_lib
+[0.890s] running install_data
+[0.890s] running install_egg_info
+[0.891s] removing '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/lib/python3.10/site-packages/pure_pursuit-0.0.0-py3.10.egg-info' (and everything under it)
+[0.891s] Copying ../build/pure_pursuit/pure_pursuit.egg-info to /home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/lib/python3.10/site-packages/pure_pursuit-0.0.0-py3.10.egg-info
+[0.891s] running install_scripts
+[0.904s] Installing path_tracker script to /home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/lib/pure_pursuit
+[0.904s] Installing testpath_pub script to /home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/lib/pure_pursuit
+[0.905s] Installing tf_broadcaster script to /home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/lib/pure_pursuit
+[0.905s] Installing variable_speed script to /home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/lib/pure_pursuit
+[0.905s] writing list of installed files to '/home/sdc/Desktop/mocap4ros2_ws/Archive/build/pure_pursuit/install.log'
+[0.921s] Invoked command in '/home/sdc/Desktop/mocap4ros2_ws/Archive/pure_pursuit' returned '0': PYTHONPATH=/home/sdc/Desktop/mocap4ros2_ws/Archive/build/pure_pursuit/prefix_override:/home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/pure_pursuit build --build-base /home/sdc/Desktop/mocap4ros2_ws/Archive/build/pure_pursuit/build install --record /home/sdc/Desktop/mocap4ros2_ws/Archive/build/pure_pursuit/install.log --single-version-externally-managed
