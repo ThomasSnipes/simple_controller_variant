@@ -1,0 +1,3 @@
+source;share/target_pid_controller/hook/pythonpath.ps1
+source;share/target_pid_controller/hook/pythonpath.dsv
+source;share/target_pid_controller/hook/pythonpath.sh

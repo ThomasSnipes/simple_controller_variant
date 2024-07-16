@@ -98,8 +98,8 @@ def generate_launch_description():
     for i in range(num_agents):
         target_controller_node = Node(
             package=package_name,
-            executable='robot_controller',
-            name=f'robot_controller_{i}',
+            executable='target_controller',
+            name=f'target_controller_{i}',
             namespace=f'robot_{i}',
             parameters=[config],
             output='screen',

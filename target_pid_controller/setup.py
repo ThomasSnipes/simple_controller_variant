@@ -30,9 +30,10 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'target_controller = target_pid_controller.pid_controller_node:main',
+            'robot_controller = target_pid_controller.pid_controller_node:main',
             'tf_broadcaster = target_pid_controller.tf_updater_node:main',
-            'robot_controller = target_pid_controller.pid_controller_node_sub:main'
+            'connection_node = target_pid_controller.pid_controller_node_sub:main'
+            'target_setter = target_pid_controller.target_node:main'
         ],
     },
 )
