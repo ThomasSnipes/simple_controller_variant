@@ -70,28 +70,29 @@ class RobotControllerNode(Node):
     def command_callback(self, msg, robot_id):
         linear_velocity = msg.linear_velocity
         angular_velocity = msg.angular_velocity
-        
+        x = msg.x
+        y = msg.y
+        tar_x = msg.x_target
+        tar_y = msg.y_target
         ip = self.robot_id_to_ip[robot_id]
         
         # Translate the velocities into real commands
-        self.translate_command(linear_velocity, angular_velocity, ip)
+        self.translate_command(linear_velocity, angular_velocity, x, y, tar_x, tar_y, ip)
 
 
-    def translate_command(self, linear_velocity, angular_velocity, ip):
+    def translate_command(self, linear_velocity, angular_velocity, x, y, ip):
         # Implement the logic to translate velocities to actual commands
-        # forward_command = cmd.CMD_MOVE_FORWARD + f"{linear_velocity}{self.intervalChar}"
-        # turn_command = cmd.CMD_TURN + f"{angular_velocity}{self.endChar}"
+        angular_velocity = int(angular_velocity * 10000)
+        linear_velocity = int(linear_velocity * 10000)
 
-        linear_velocity = linear_velocity* 10000
-
-        #forward = self.intervalChar + str(linear_velocity) + self.intervalChar + str(linear_velocity) + self.intervalChar + str(
-                #linear_velocity) + self.intervalChar + str(linear_velocity) + self.endChar
+        forward = self.intervalChar + str(linear_velocity) + self.intervalChar + str(linear_velocity) + self.intervalChar + str(
+                angular_velocity) + self.intervalChar + str(angular_velocity) + self.endChar
         
-        forward = self.intervalChar + str(1500) + self.intervalChar + str(1500) + self.intervalChar + str(
-                1500) + self.intervalChar + str(1500) + self.endChar
+        # forward = self.intervalChar + str(1500) + self.intervalChar + str(1500) + self.intervalChar + str(
+        #         1500) + self.intervalChar + str(1500) + self.endChar
 
         command = cmd.CMD_MOTOR + forward #+ turn_command
-        print(command)
+        
         self.TCP.sendData(command)
         
     
@@ -141,6 +142,7 @@ class RobotControllerNode(Node):
         self.stop_event.set()
         for thread in self.threads:
             thread.join()  # Wait for threads to finish cleanly
+
 
     def Power(self):
         while True:

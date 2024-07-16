@@ -53,16 +53,16 @@ def generate_launch_description():
             output='screen',
         )
 
-        reference_location_exec = ExecuteProcess(
-            cmd=[FindExecutable(name='ros2'), 'topic', 'pub', f'/robot_{i}/custom_topic',
-                'geometry_msgs/PointStamped',
-                '"{header: {stamp: {sec: 0, nanosec: 0}, frame_id: world},\
-                            point: {x: -2, y: 2, z: 0}}"'],
-            shell=True
-        )
+        # reference_location_exec = ExecuteProcess(
+        #     cmd=[FindExecutable(name='ros2'), 'topic', 'pub', f'/robot_{i}/custom_topic',
+        #         'geometry_msgs/PointStamped',
+        #         '"{header: {stamp: {sec: 0, nanosec: 0}, frame_id: world},\
+        #                     point: {x: -2, y: 2, z: 0}}"'],
+        #     shell=True
+        # )
 
         nodes.append(target_controller_node)
         nodes.append(tf_update_node)
-        nodes.append(reference_location_exec)
+        #nodes.append(reference_location_exec)
 
     return LaunchDescription(nodes)
