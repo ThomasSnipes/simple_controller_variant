@@ -1,5 +1,9 @@
-float32 linear_velocity        # Linear velocity command
-float32 angular_velocity       # Angular velocity command
+float32 linear_velocity       
+float32 angular_velocity       
 float32 x
 float32 y
+float32 x_target
+float32 y_target
+float32 orientation
+float32 angle
 geometry_msgs/Point position

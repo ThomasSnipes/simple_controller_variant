@@ -24,6 +24,7 @@
 /home/sdc/Desktop/mocap4ros2_ws/Archive/target_pid_controller/install/target_pid_controller/share/target_pid_controller/package.xml
 /home/sdc/Desktop/mocap4ros2_ws/Archive/target_pid_controller/install/target_pid_controller/share/target_pid_controller/launch/target_controller_sim_launch.py
 /home/sdc/Desktop/mocap4ros2_ws/Archive/target_pid_controller/install/target_pid_controller/share/target_pid_controller/launch/target_controller_launch.py
+/home/sdc/Desktop/mocap4ros2_ws/Archive/target_pid_controller/install/target_pid_controller/share/target_pid_controller/config/target_pid_controller_params.yaml
 /home/sdc/Desktop/mocap4ros2_ws/Archive/target_pid_controller/install/target_pid_controller/share/target_pid_controller/config/target_pid_controller.yaml
 /home/sdc/Desktop/mocap4ros2_ws/Archive/target_pid_controller/install/target_pid_controller/share/target_pid_controller/config/rviz/target_controller_rviz2.rviz
 /home/sdc/Desktop/mocap4ros2_ws/Archive/target_pid_controller/install/target_pid_controller/lib/python3.10/site-packages/target_pid_controller-0.0.0-py3.10.egg-info/top_level.txt
@@ -33,6 +34,7 @@
 /home/sdc/Desktop/mocap4ros2_ws/Archive/target_pid_controller/install/target_pid_controller/lib/python3.10/site-packages/target_pid_controller-0.0.0-py3.10.egg-info/entry_points.txt
 /home/sdc/Desktop/mocap4ros2_ws/Archive/target_pid_controller/install/target_pid_controller/lib/python3.10/site-packages/target_pid_controller-0.0.0-py3.10.egg-info/PKG-INFO
 /home/sdc/Desktop/mocap4ros2_ws/Archive/target_pid_controller/install/target_pid_controller/lib/python3.10/site-packages/target_pid_controller-0.0.0-py3.10.egg-info/requires.txt
-/home/sdc/Desktop/mocap4ros2_ws/Archive/target_pid_controller/install/target_pid_controller/lib/target_pid_controller/connection_node = target_pid_controller.pid_controller_node_sub:maintarget_setter
+/home/sdc/Desktop/mocap4ros2_ws/Archive/target_pid_controller/install/target_pid_controller/lib/target_pid_controller/connection_node
 /home/sdc/Desktop/mocap4ros2_ws/Archive/target_pid_controller/install/target_pid_controller/lib/target_pid_controller/robot_controller
+/home/sdc/Desktop/mocap4ros2_ws/Archive/target_pid_controller/install/target_pid_controller/lib/target_pid_controller/target_setter
 /home/sdc/Desktop/mocap4ros2_ws/Archive/target_pid_controller/install/target_pid_controller/lib/target_pid_controller/tf_broadcaster

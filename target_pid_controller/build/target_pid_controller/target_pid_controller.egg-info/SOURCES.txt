@@ -9,6 +9,7 @@ build/target_pid_controller/target_pid_controller.egg-info/requires.txt
 build/target_pid_controller/target_pid_controller.egg-info/top_level.txt
 build/target_pid_controller/target_pid_controller.egg-info/zip-safe
 config/target_pid_controller.yaml
+config/target_pid_controller_params.yaml
 config/rviz/target_controller_rviz2.rviz
 launch/target_controller_launch.py
 launch/target_controller_sim_launch.py

@@ -9,6 +9,7 @@ setup.py
 ../build/target_pid_controller/target_pid_controller.egg-info/top_level.txt
 ../build/target_pid_controller/target_pid_controller.egg-info/zip-safe
 config/target_pid_controller.yaml
+config/target_pid_controller_params.yaml
 config/rviz/target_controller_rviz2.rviz
 launch/target_controller_launch.py
 launch/target_controller_sim_launch.py
@@ -21,6 +22,8 @@ target_pid_controller/params.py
 target_pid_controller/pid_controller.py
 target_pid_controller/pid_controller_node.py
 target_pid_controller/pid_controller_node_sub.py
+target_pid_controller/rigid_bodies.py
+target_pid_controller/target_node.py
 target_pid_controller/tf_updater_node.py
 test/test_copyright.py
 test/test_flake8.py

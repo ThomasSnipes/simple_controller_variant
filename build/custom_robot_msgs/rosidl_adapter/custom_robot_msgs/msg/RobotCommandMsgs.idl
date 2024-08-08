@@ -7,13 +7,21 @@
 module custom_robot_msgs {
   module msg {
     struct RobotCommandMsgs {
-      @verbatim (language="comment", text=
-        "Linear velocity command")
       float linear_velocity;
 
-      @verbatim (language="comment", text=
-        "Angular velocity command")
       float angular_velocity;
+
+      float x;
+
+      float y;
+
+      float x_target;
+
+      float y_target;
+
+      float orientation;
+
+      float angle;
 
       geometry_msgs::msg::Point position;
     };

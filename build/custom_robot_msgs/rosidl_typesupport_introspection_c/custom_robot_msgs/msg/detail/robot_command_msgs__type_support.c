@@ -37,7 +37,7 @@ void custom_robot_msgs__msg__RobotCommandMsgs__rosidl_typesupport_introspection_
   custom_robot_msgs__msg__RobotCommandMsgs__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember custom_robot_msgs__msg__RobotCommandMsgs__rosidl_typesupport_introspection_c__RobotCommandMsgs_message_member_array[3] = {
+static rosidl_typesupport_introspection_c__MessageMember custom_robot_msgs__msg__RobotCommandMsgs__rosidl_typesupport_introspection_c__RobotCommandMsgs_message_member_array[9] = {
   {
     "linear_velocity",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
@@ -73,6 +73,108 @@ static rosidl_typesupport_introspection_c__MessageMember custom_robot_msgs__msg_
     NULL  // resize(index) function pointer
   },
   {
+    "x",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(custom_robot_msgs__msg__RobotCommandMsgs, x),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "y",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(custom_robot_msgs__msg__RobotCommandMsgs, y),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "x_target",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(custom_robot_msgs__msg__RobotCommandMsgs, x_target),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "y_target",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(custom_robot_msgs__msg__RobotCommandMsgs, y_target),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "orientation",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(custom_robot_msgs__msg__RobotCommandMsgs, orientation),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "angle",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(custom_robot_msgs__msg__RobotCommandMsgs, angle),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
     "position",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
     0,  // upper bound of string
@@ -94,7 +196,7 @@ static rosidl_typesupport_introspection_c__MessageMember custom_robot_msgs__msg_
 static const rosidl_typesupport_introspection_c__MessageMembers custom_robot_msgs__msg__RobotCommandMsgs__rosidl_typesupport_introspection_c__RobotCommandMsgs_message_members = {
   "custom_robot_msgs__msg",  // message namespace
   "RobotCommandMsgs",  // message name
-  3,  // number of fields
+  9,  // number of fields
   sizeof(custom_robot_msgs__msg__RobotCommandMsgs),
   custom_robot_msgs__msg__RobotCommandMsgs__rosidl_typesupport_introspection_c__RobotCommandMsgs_message_member_array,  // message members
   custom_robot_msgs__msg__RobotCommandMsgs__rosidl_typesupport_introspection_c__RobotCommandMsgs_init_function,  // function to initialize message memory (memory has to be allocated)
@@ -112,7 +214,7 @@ static rosidl_message_type_support_t custom_robot_msgs__msg__RobotCommandMsgs__r
 ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_custom_robot_msgs
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, custom_robot_msgs, msg, RobotCommandMsgs)() {
-  custom_robot_msgs__msg__RobotCommandMsgs__rosidl_typesupport_introspection_c__RobotCommandMsgs_message_member_array[2].members_ =
+  custom_robot_msgs__msg__RobotCommandMsgs__rosidl_typesupport_introspection_c__RobotCommandMsgs_message_member_array[8].members_ =
     ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, geometry_msgs, msg, Point)();
   if (!custom_robot_msgs__msg__RobotCommandMsgs__rosidl_typesupport_introspection_c__RobotCommandMsgs_message_type_support_handle.typesupport_identifier) {
     custom_robot_msgs__msg__RobotCommandMsgs__rosidl_typesupport_introspection_c__RobotCommandMsgs_message_type_support_handle.typesupport_identifier =

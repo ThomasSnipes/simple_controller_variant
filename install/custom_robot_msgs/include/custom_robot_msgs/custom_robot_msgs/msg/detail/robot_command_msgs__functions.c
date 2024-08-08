@@ -23,6 +23,12 @@ custom_robot_msgs__msg__RobotCommandMsgs__init(custom_robot_msgs__msg__RobotComm
   }
   // linear_velocity
   // angular_velocity
+  // x
+  // y
+  // x_target
+  // y_target
+  // orientation
+  // angle
   // position
   if (!geometry_msgs__msg__Point__init(&msg->position)) {
     custom_robot_msgs__msg__RobotCommandMsgs__fini(msg);
@@ -39,6 +45,12 @@ custom_robot_msgs__msg__RobotCommandMsgs__fini(custom_robot_msgs__msg__RobotComm
   }
   // linear_velocity
   // angular_velocity
+  // x
+  // y
+  // x_target
+  // y_target
+  // orientation
+  // angle
   // position
   geometry_msgs__msg__Point__fini(&msg->position);
 }
@@ -55,6 +67,30 @@ custom_robot_msgs__msg__RobotCommandMsgs__are_equal(const custom_robot_msgs__msg
   }
   // angular_velocity
   if (lhs->angular_velocity != rhs->angular_velocity) {
+    return false;
+  }
+  // x
+  if (lhs->x != rhs->x) {
+    return false;
+  }
+  // y
+  if (lhs->y != rhs->y) {
+    return false;
+  }
+  // x_target
+  if (lhs->x_target != rhs->x_target) {
+    return false;
+  }
+  // y_target
+  if (lhs->y_target != rhs->y_target) {
+    return false;
+  }
+  // orientation
+  if (lhs->orientation != rhs->orientation) {
+    return false;
+  }
+  // angle
+  if (lhs->angle != rhs->angle) {
     return false;
   }
   // position
@@ -78,6 +114,18 @@ custom_robot_msgs__msg__RobotCommandMsgs__copy(
   output->linear_velocity = input->linear_velocity;
   // angular_velocity
   output->angular_velocity = input->angular_velocity;
+  // x
+  output->x = input->x;
+  // y
+  output->y = input->y;
+  // x_target
+  output->x_target = input->x_target;
+  // y_target
+  output->y_target = input->y_target;
+  // orientation
+  output->orientation = input->orientation;
+  // angle
+  output->angle = input->angle;
   // position
   if (!geometry_msgs__msg__Point__copy(
       &(input->position), &(output->position)))

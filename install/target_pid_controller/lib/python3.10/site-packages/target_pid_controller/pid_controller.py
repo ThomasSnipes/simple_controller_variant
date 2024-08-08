@@ -1,10 +1,9 @@
 #! /usr/bin/env python
-
 import numpy as np
 from numpy.linalg import norm
 
 
-def pidController(kp, ki, kd):
+def pidController(kp, ki, kd, min=0.1):
     ierror = 0
     prev_error = 0
     error = 0
@@ -14,7 +13,7 @@ def pidController(kp, ki, kd):
         derror = error - prev_error
         prev_error = error
         u = kp*error + ki*ierror + kd*derror
-        print("U: ", u)
+        
         error = (yield u)
 
 
@@ -72,6 +71,7 @@ class TargetPIDController:
         self.angle_epsilon = angle_epsilon # error bound for turning
 
         self.target = target
+        
 
     def set_target(self, target):
         '''
@@ -87,6 +87,7 @@ class TargetPIDController:
         None
         '''
         self.target = np.array(target)
+
 
     def compute_controls(self, vehicle_pose):
         '''
@@ -108,10 +109,11 @@ class TargetPIDController:
 
         location = np.array(vehicle_pose[:2])
         orientation = vehicle_pose[2]
+        
 
         dist = norm(self.target - location)
         if dist < self.d_epsilon: # if target was reached, switch to next one
-            return 0.0, 0.0
+            return 0.0, 0.0, 0.0
         else:
             # compute heading of line of sight vector
             vector = self.target - location
@@ -137,4 +139,4 @@ class TargetPIDController:
             linear_velocity = float(min(max(linear_velocity, 0.1), self.max_linear_velocity))
             steering_angle = float(max(min(np.deg2rad(steering_angle), self.max_steering_angle), -self.max_steering_angle))
             
-            return (linear_velocity, steering_angle) # return computed linear velocity and steering angle as 2-tuple
+            return (linear_velocity, steering_angle, error_heading) # return computed linear velocity and steering angle as 2-tuple

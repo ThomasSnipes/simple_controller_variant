@@ -1,7 +1,7 @@
 #! /usr/bin/env python
-
 import numpy as np
 from numpy.linalg import norm
+
 
 
 def pidController(kp, ki, kd):
@@ -72,6 +72,7 @@ class TargetPIDController:
         self.angle_epsilon = angle_epsilon # error bound for turning
 
         self.target = target
+        
 
     def set_target(self, target):
         '''
@@ -87,6 +88,7 @@ class TargetPIDController:
         None
         '''
         self.target = np.array(target)
+
 
     def compute_controls(self, vehicle_pose):
         '''

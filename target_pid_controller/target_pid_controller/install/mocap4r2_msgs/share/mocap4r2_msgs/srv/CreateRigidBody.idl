@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from mocap4r2_msgs/srv/CreateRigidBody.srv
+// generated code does not contain a copyright notice
+
+
+module mocap4r2_msgs {
+  module srv {
+    struct CreateRigidBody_Request {
+      string rigid_body_name;
+
+      string link_parent;
+
+      sequence<int32> markers;
+    };
+    struct CreateRigidBody_Response {
+      boolean success;
+    };
+  };
+};

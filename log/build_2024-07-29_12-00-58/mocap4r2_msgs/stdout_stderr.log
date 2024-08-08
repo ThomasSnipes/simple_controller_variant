@@ -1,0 +1,22 @@
+[  1%] Built target mocap4r2_msgs__cpp
+[ 12%] Built target mocap4r2_msgs__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_mocap4r2_msgs
+[ 23%] Built target mocap4r2_msgs__rosidl_typesupport_c
+[ 35%] Built target mocap4r2_msgs__rosidl_typesupport_cpp
+[ 47%] Built target mocap4r2_msgs__rosidl_typesupport_introspection_cpp
+[ 60%] Built target mocap4r2_msgs__rosidl_typesupport_introspection_c
+[ 69%] Built target mocap4r2_msgs__rosidl_typesupport_fastrtps_cpp
+[ 80%] Built target mocap4r2_msgs__rosidl_typesupport_fastrtps_c
+[ 80%] Built target mocap4r2_msgs
+[ 81%] Built target mocap4r2_msgs__py
+[ 91%] Built target mocap4r2_msgs__rosidl_generator_py
+[ 94%] Built target mocap4r2_msgs__rosidl_typesupport_c__pyext
+[100%] Built target mocap4r2_msgs__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target mocap4r2_msgs__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing mocap4r2_msgs.egg-info/PKG-INFO
+writing dependency_links to mocap4r2_msgs.egg-info/dependency_links.txt
+writing top-level names to mocap4r2_msgs.egg-info/top_level.txt
+reading manifest file 'mocap4r2_msgs.egg-info/SOURCES.txt'
+writing manifest file 'mocap4r2_msgs.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_mocap4r2_msgs_egg

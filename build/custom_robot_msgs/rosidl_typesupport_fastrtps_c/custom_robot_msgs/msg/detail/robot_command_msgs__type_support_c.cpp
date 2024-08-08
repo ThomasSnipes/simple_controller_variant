@@ -74,6 +74,36 @@ static bool _RobotCommandMsgs__cdr_serialize(
     cdr << ros_message->angular_velocity;
   }
 
+  // Field name: x
+  {
+    cdr << ros_message->x;
+  }
+
+  // Field name: y
+  {
+    cdr << ros_message->y;
+  }
+
+  // Field name: x_target
+  {
+    cdr << ros_message->x_target;
+  }
+
+  // Field name: y_target
+  {
+    cdr << ros_message->y_target;
+  }
+
+  // Field name: orientation
+  {
+    cdr << ros_message->orientation;
+  }
+
+  // Field name: angle
+  {
+    cdr << ros_message->angle;
+  }
+
   // Field name: position
   {
     const message_type_support_callbacks_t * callbacks =
@@ -108,6 +138,36 @@ static bool _RobotCommandMsgs__cdr_deserialize(
   // Field name: angular_velocity
   {
     cdr >> ros_message->angular_velocity;
+  }
+
+  // Field name: x
+  {
+    cdr >> ros_message->x;
+  }
+
+  // Field name: y
+  {
+    cdr >> ros_message->y;
+  }
+
+  // Field name: x_target
+  {
+    cdr >> ros_message->x_target;
+  }
+
+  // Field name: y_target
+  {
+    cdr >> ros_message->y_target;
+  }
+
+  // Field name: orientation
+  {
+    cdr >> ros_message->orientation;
+  }
+
+  // Field name: angle
+  {
+    cdr >> ros_message->angle;
   }
 
   // Field name: position
@@ -153,6 +213,42 @@ size_t get_serialized_size_custom_robot_msgs__msg__RobotCommandMsgs(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
+  // field.name x
+  {
+    size_t item_size = sizeof(ros_message->x);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name y
+  {
+    size_t item_size = sizeof(ros_message->y);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name x_target
+  {
+    size_t item_size = sizeof(ros_message->x_target);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name y_target
+  {
+    size_t item_size = sizeof(ros_message->y_target);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name orientation
+  {
+    size_t item_size = sizeof(ros_message->orientation);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name angle
+  {
+    size_t item_size = sizeof(ros_message->angle);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
   // field.name position
 
   current_alignment += get_serialized_size_geometry_msgs__msg__Point(
@@ -195,6 +291,54 @@ size_t max_serialized_size_custom_robot_msgs__msg__RobotCommandMsgs(
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
   // member: angular_velocity
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+  // member: x
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+  // member: y
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+  // member: x_target
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+  // member: y_target
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+  // member: orientation
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+  // member: angle
   {
     size_t array_size = 1;
 

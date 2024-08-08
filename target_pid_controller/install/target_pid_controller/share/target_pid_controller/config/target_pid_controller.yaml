@@ -8,4 +8,4 @@ target_controller:
     
 rigid_body_frame_broadcaster:
   ros__parameters:
-    tracked_rigid_bodies: [['477', '/SUB6']]
+    tracked_rigid_bodies: [['473', '/SUB6']]

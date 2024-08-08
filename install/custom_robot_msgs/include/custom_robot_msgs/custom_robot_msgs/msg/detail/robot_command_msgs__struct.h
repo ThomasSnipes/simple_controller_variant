@@ -24,10 +24,14 @@ extern "C"
 /// Struct defined in msg/RobotCommandMsgs in the package custom_robot_msgs.
 typedef struct custom_robot_msgs__msg__RobotCommandMsgs
 {
-  /// Linear velocity command
   float linear_velocity;
-  /// Angular velocity command
   float angular_velocity;
+  float x;
+  float y;
+  float x_target;
+  float y_target;
+  float orientation;
+  float angle;
   geometry_msgs__msg__Point position;
 } custom_robot_msgs__msg__RobotCommandMsgs;
 

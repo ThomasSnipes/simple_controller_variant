@@ -1,6 +1,0 @@
-{
-  "package_name": "your_ros2_package",
-  "non_idl_tuples": [
-    "/home/sdc/Desktop/mocap4ros2_ws/Archive/custom_robot_msgs:msg/RobotCommandMsgs.msg"
-  ]
-}

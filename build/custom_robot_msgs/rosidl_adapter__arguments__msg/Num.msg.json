@@ -1,6 +1,0 @@
-{
-  "package_name": "custom_robot_msgs",
-  "non_idl_tuples": [
-    "/home/sdc/Desktop/mocap4ros2_ws/Archive/custom_robot_msgs:srv/AddThreeInts.srv"
-  ]
-}

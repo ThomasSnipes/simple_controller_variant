@@ -23,7 +23,6 @@ function _colcon_prefix_chain_powershell_source_script {
 
 # source chained prefixes
 _colcon_prefix_chain_powershell_source_script "/opt/ros/humble\local_setup.ps1"
-_colcon_prefix_chain_powershell_source_script "/home/sdc/Desktop/mocap4ros2_ws/Archive/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/sdc/Desktop/mocap4ros2_ws/Archive/target_pid_controller/install\local_setup.ps1"
 
 # source this prefix

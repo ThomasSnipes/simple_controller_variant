@@ -88,8 +88,8 @@ def generate_launch_description():
 
     connection_node = Node(
         package=package_name,
-        executable='robot_controller',
-        name='robot_controller',
+        executable='connection_node',
+        name='connection_node',
         output='screen',
     )
 
@@ -98,15 +98,12 @@ def generate_launch_description():
     for i in range(num_agents):
         target_controller_node = Node(
             package=package_name,
-            executable='target_controller',
-            name=f'target_controller_{i}',
+            executable='robot_controller',
+            name=f'robot_controller_{i}',
             namespace=f'robot_{i}',
             parameters=[config],
             output='screen',
             remappings=[
-                #('/planned_path', f'/robot_{i}/planned_path'),
-                #('/robot_command', f'/robot_{i}/robot_commands'),
-                #('/target', f'/robot_{i}/target'),
                 ('/custom_topic', f'/robot_{i}/custom_topic'),
                 ('/robot_commands', f'/robot_{i}/robot_commands'),
             ]

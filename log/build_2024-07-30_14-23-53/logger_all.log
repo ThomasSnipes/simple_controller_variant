@@ -1,0 +1,309 @@
+[0.588s] DEBUG:colcon:Command line arguments: ['/home/sdc/.local/bin/colcon', 'build']
+[0.588s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x734b4193cdf0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x734b4193faf0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x734b4193faf0>>, mixin_verb=('build',))
+[0.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.610s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sdc/Desktop/mocap4ros2_ws/Archive'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(custom_robot_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(custom_robot_msgs) by extension 'ignore'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(custom_robot_msgs) by extension 'ignore_ament_install'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(custom_robot_msgs) by extensions ['colcon_pkg']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(custom_robot_msgs) by extension 'colcon_pkg'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(custom_robot_msgs) by extensions ['colcon_meta']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(custom_robot_msgs) by extension 'colcon_meta'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(custom_robot_msgs) by extensions ['ros']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(custom_robot_msgs) by extension 'ros'
+[0.617s] DEBUG:colcon.colcon_core.package_identification:Package 'custom_robot_msgs' with type 'ros.ament_cmake' and name 'custom_robot_msgs'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(mocap4r2_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(mocap4r2_msgs) by extension 'ignore'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(mocap4r2_msgs) by extension 'ignore_ament_install'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(mocap4r2_msgs) by extensions ['colcon_pkg']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(mocap4r2_msgs) by extension 'colcon_pkg'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(mocap4r2_msgs) by extensions ['colcon_meta']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(mocap4r2_msgs) by extension 'colcon_meta'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(mocap4r2_msgs) by extensions ['ros']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(mocap4r2_msgs) by extension 'ros'
+[0.618s] DEBUG:colcon.colcon_core.package_identification:Package 'mocap4r2_msgs' with type 'ros.ament_cmake' and name 'mocap4r2_msgs'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(pure_pursuit) by extensions ['ignore', 'ignore_ament_install']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(pure_pursuit) by extension 'ignore'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(pure_pursuit) by extension 'ignore_ament_install'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(pure_pursuit) by extensions ['colcon_pkg']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(pure_pursuit) by extension 'colcon_pkg'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(pure_pursuit) by extensions ['colcon_meta']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(pure_pursuit) by extension 'colcon_meta'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(pure_pursuit) by extensions ['ros']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(pure_pursuit) by extension 'ros'
+[0.618s] DEBUG:colcon.colcon_core.package_identification:Package 'pure_pursuit' with type 'ros.ament_python' and name 'pure_pursuit'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(target_pid_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(target_pid_controller) by extension 'ignore'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(target_pid_controller) by extension 'ignore_ament_install'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(target_pid_controller) by extensions ['colcon_pkg']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(target_pid_controller) by extension 'colcon_pkg'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(target_pid_controller) by extensions ['colcon_meta']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(target_pid_controller) by extension 'colcon_meta'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(target_pid_controller) by extensions ['ros']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(target_pid_controller) by extension 'ros'
+[0.618s] DEBUG:colcon.colcon_core.package_identification:Failed to parse potential ROS package manifest in'target_pid_controller': Error(s) in package 'target_pid_controller/package.xml':
+The manifest contains invalid XML:
+XML or text declaration not at start of entity: line 3, column 0
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(target_pid_controller) by extensions ['cmake', 'python']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(target_pid_controller) by extension 'cmake'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(target_pid_controller) by extension 'python'
+[0.619s] DEBUG:colcon.colcon_core.package_identification:Python package in 'target_pid_controller' passes arguments to the setup() function which requires a different identification extension than 'python'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(target_pid_controller) by extensions ['python_setup_py']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(target_pid_controller) by extension 'python_setup_py'
+[0.755s] DEBUG:colcon.colcon_core.package_identification:Package 'target_pid_controller' with type 'python' and name 'target_pid_controller'
+[0.755s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.755s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.755s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.755s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.755s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.802s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.802s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.816s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/sdc/Desktop/mocap4ros2_ws/Archive/install
+[0.823s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 394 installed packages in /opt/ros/humble
+[0.824s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.857s] Level 5:colcon.colcon_core.verb:set package 'custom_robot_msgs' build argument 'cmake_args' from command line to 'None'
+[0.857s] Level 5:colcon.colcon_core.verb:set package 'custom_robot_msgs' build argument 'cmake_target' from command line to 'None'
+[0.857s] Level 5:colcon.colcon_core.verb:set package 'custom_robot_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.857s] Level 5:colcon.colcon_core.verb:set package 'custom_robot_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.857s] Level 5:colcon.colcon_core.verb:set package 'custom_robot_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.857s] Level 5:colcon.colcon_core.verb:set package 'custom_robot_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.857s] Level 5:colcon.colcon_core.verb:set package 'custom_robot_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.857s] Level 5:colcon.colcon_core.verb:set package 'custom_robot_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.857s] Level 5:colcon.colcon_core.verb:set package 'custom_robot_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.858s] DEBUG:colcon.colcon_core.verb:Building package 'custom_robot_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sdc/Desktop/mocap4ros2_ws/Archive/build/custom_robot_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/custom_robot_msgs', 'merge_install': False, 'path': '/home/sdc/Desktop/mocap4ros2_ws/Archive/custom_robot_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.864s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_msgs' build argument 'cmake_args' from command line to 'None'
+[0.864s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_msgs' build argument 'cmake_target' from command line to 'None'
+[0.864s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.864s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.864s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.864s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.864s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.864s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.864s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.864s] DEBUG:colcon.colcon_core.verb:Building package 'mocap4r2_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sdc/Desktop/mocap4ros2_ws/Archive/build/mocap4r2_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/mocap4r2_msgs', 'merge_install': False, 'path': '/home/sdc/Desktop/mocap4ros2_ws/Archive/mocap4r2_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'pure_pursuit' build argument 'cmake_args' from command line to 'None'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'pure_pursuit' build argument 'cmake_target' from command line to 'None'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'pure_pursuit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'pure_pursuit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'pure_pursuit' build argument 'cmake_clean_first' from command line to 'False'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'pure_pursuit' build argument 'cmake_force_configure' from command line to 'False'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'pure_pursuit' build argument 'ament_cmake_args' from command line to 'None'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'pure_pursuit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.871s] Level 5:colcon.colcon_core.verb:set package 'pure_pursuit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.871s] DEBUG:colcon.colcon_core.verb:Building package 'pure_pursuit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sdc/Desktop/mocap4ros2_ws/Archive/build/pure_pursuit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit', 'merge_install': False, 'path': '/home/sdc/Desktop/mocap4ros2_ws/Archive/pure_pursuit', 'symlink_install': False, 'test_result_base': None}
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'target_pid_controller' build argument 'cmake_args' from command line to 'None'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'target_pid_controller' build argument 'cmake_target' from command line to 'None'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'target_pid_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'target_pid_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'target_pid_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'target_pid_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'target_pid_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'target_pid_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'target_pid_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.877s] DEBUG:colcon.colcon_core.verb:Building package 'target_pid_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller', 'merge_install': False, 'path': '/home/sdc/Desktop/mocap4ros2_ws/Archive/target_pid_controller', 'symlink_install': False, 'test_result_base': None}
+[0.884s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.891s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.891s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sdc/Desktop/mocap4ros2_ws/Archive/custom_robot_msgs' with build type 'ament_cmake'
+[0.891s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sdc/Desktop/mocap4ros2_ws/Archive/custom_robot_msgs'
+[0.899s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.899s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.899s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.921s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sdc/Desktop/mocap4ros2_ws/Archive/mocap4r2_msgs' with build type 'ament_cmake'
+[0.921s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sdc/Desktop/mocap4ros2_ws/Archive/mocap4r2_msgs'
+[0.928s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.928s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.949s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sdc/Desktop/mocap4ros2_ws/Archive/pure_pursuit' with build type 'ament_python'
+[0.949s] Level 1:colcon.colcon_core.shell:create_environment_hook('pure_pursuit', 'ament_prefix_path')
+[0.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/share/pure_pursuit/hook/ament_prefix_path.ps1'
+[0.957s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/share/pure_pursuit/hook/ament_prefix_path.dsv'
+[0.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/share/pure_pursuit/hook/ament_prefix_path.sh'
+[0.969s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.969s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.990s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sdc/Desktop/mocap4ros2_ws/Archive/target_pid_controller'
+[0.997s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.997s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.027s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sdc/Desktop/mocap4ros2_ws/Archive/build/custom_robot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller:/home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit:/opt/ros/humble /usr/bin/cmake --build /home/sdc/Desktop/mocap4ros2_ws/Archive/build/custom_robot_msgs -- -j16 -l16
+[1.029s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sdc/Desktop/mocap4ros2_ws/Archive/build/mocap4r2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller:/home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit:/opt/ros/humble /usr/bin/cmake --build /home/sdc/Desktop/mocap4ros2_ws/Archive/build/mocap4r2_msgs -- -j16 -l16
+[1.204s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sdc/Desktop/mocap4ros2_ws/Archive/pure_pursuit'
+[1.211s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.211s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sdc/Desktop/mocap4ros2_ws/Archive/build/custom_robot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller:/home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit:/opt/ros/humble /usr/bin/cmake --build /home/sdc/Desktop/mocap4ros2_ws/Archive/build/custom_robot_msgs -- -j16 -l16
+[1.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sdc/Desktop/mocap4ros2_ws/Archive/build/mocap4r2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller:/home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit:/opt/ros/humble /usr/bin/cmake --build /home/sdc/Desktop/mocap4ros2_ws/Archive/build/mocap4r2_msgs -- -j16 -l16
+[1.424s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sdc/Desktop/mocap4ros2_ws/Archive/build/custom_robot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller:/home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit:/opt/ros/humble /usr/bin/cmake --install /home/sdc/Desktop/mocap4ros2_ws/Archive/build/custom_robot_msgs
+[1.455s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_robot_msgs)
+[1.458s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sdc/Desktop/mocap4ros2_ws/Archive/build/custom_robot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller:/home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit:/opt/ros/humble /usr/bin/cmake --install /home/sdc/Desktop/mocap4ros2_ws/Archive/build/custom_robot_msgs
+[1.468s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/custom_robot_msgs' for CMake module files
+[1.469s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/custom_robot_msgs' for CMake config files
+[1.469s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_robot_msgs', 'cmake_prefix_path')
+[1.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/custom_robot_msgs/share/custom_robot_msgs/hook/cmake_prefix_path.ps1'
+[1.476s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/custom_robot_msgs/share/custom_robot_msgs/hook/cmake_prefix_path.dsv'
+[1.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/custom_robot_msgs/share/custom_robot_msgs/hook/cmake_prefix_path.sh'
+[1.477s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/custom_robot_msgs/lib'
+[1.477s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_robot_msgs', 'ld_library_path_lib')
+[1.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/custom_robot_msgs/share/custom_robot_msgs/hook/ld_library_path_lib.ps1'
+[1.484s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/custom_robot_msgs/share/custom_robot_msgs/hook/ld_library_path_lib.dsv'
+[1.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/custom_robot_msgs/share/custom_robot_msgs/hook/ld_library_path_lib.sh'
+[1.485s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/custom_robot_msgs/bin'
+[1.485s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/custom_robot_msgs/lib/pkgconfig/custom_robot_msgs.pc'
+[1.485s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/custom_robot_msgs/lib/python3.10/site-packages'
+[1.485s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/custom_robot_msgs/bin'
+[1.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/custom_robot_msgs/share/custom_robot_msgs/package.ps1'
+[1.493s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/custom_robot_msgs/share/custom_robot_msgs/package.dsv'
+[1.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/custom_robot_msgs/share/custom_robot_msgs/package.sh'
+[1.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/custom_robot_msgs/share/custom_robot_msgs/package.bash'
+[1.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/custom_robot_msgs/share/custom_robot_msgs/package.zsh'
+[1.494s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sdc/Desktop/mocap4ros2_ws/Archive/install/custom_robot_msgs/share/colcon-core/packages/custom_robot_msgs)
+[1.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sdc/Desktop/mocap4ros2_ws/Archive/build/mocap4r2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller:/home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit:/opt/ros/humble /usr/bin/cmake --install /home/sdc/Desktop/mocap4ros2_ws/Archive/build/mocap4r2_msgs
+[1.527s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mocap4r2_msgs)
+[1.531s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sdc/Desktop/mocap4ros2_ws/Archive/build/mocap4r2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller:/home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit:/opt/ros/humble /usr/bin/cmake --install /home/sdc/Desktop/mocap4ros2_ws/Archive/build/mocap4r2_msgs
+[1.542s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/mocap4r2_msgs' for CMake module files
+[1.542s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/mocap4r2_msgs' for CMake config files
+[1.542s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap4r2_msgs', 'cmake_prefix_path')
+[1.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/mocap4r2_msgs/share/mocap4r2_msgs/hook/cmake_prefix_path.ps1'
+[1.550s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/mocap4r2_msgs/share/mocap4r2_msgs/hook/cmake_prefix_path.dsv'
+[1.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/mocap4r2_msgs/share/mocap4r2_msgs/hook/cmake_prefix_path.sh'
+[1.550s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/mocap4r2_msgs/lib'
+[1.551s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap4r2_msgs', 'ld_library_path_lib')
+[1.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/mocap4r2_msgs/share/mocap4r2_msgs/hook/ld_library_path_lib.ps1'
+[1.560s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/mocap4r2_msgs/share/mocap4r2_msgs/hook/ld_library_path_lib.dsv'
+[1.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/mocap4r2_msgs/share/mocap4r2_msgs/hook/ld_library_path_lib.sh'
+[1.560s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/mocap4r2_msgs/bin'
+[1.560s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/mocap4r2_msgs/lib/pkgconfig/mocap4r2_msgs.pc'
+[1.561s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/mocap4r2_msgs/lib/python3.10/site-packages'
+[1.561s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/mocap4r2_msgs/bin'
+[1.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/mocap4r2_msgs/share/mocap4r2_msgs/package.ps1'
+[1.568s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/mocap4r2_msgs/share/mocap4r2_msgs/package.dsv'
+[1.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/mocap4r2_msgs/share/mocap4r2_msgs/package.sh'
+[1.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/mocap4r2_msgs/share/mocap4r2_msgs/package.bash'
+[1.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/mocap4r2_msgs/share/mocap4r2_msgs/package.zsh'
+[1.569s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sdc/Desktop/mocap4ros2_ws/Archive/install/mocap4r2_msgs/share/colcon-core/packages/mocap4r2_msgs)
+[1.578s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_robot_msgs)
+[1.585s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/custom_robot_msgs' for CMake module files
+[1.586s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/custom_robot_msgs' for CMake config files
+[1.586s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_robot_msgs', 'cmake_prefix_path')
+[1.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/custom_robot_msgs/share/custom_robot_msgs/hook/cmake_prefix_path.ps1'
+[1.595s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/custom_robot_msgs/share/custom_robot_msgs/hook/cmake_prefix_path.dsv'
+[1.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/custom_robot_msgs/share/custom_robot_msgs/hook/cmake_prefix_path.sh'
+[1.595s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/custom_robot_msgs/lib'
+[1.595s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_robot_msgs', 'ld_library_path_lib')
+[1.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/custom_robot_msgs/share/custom_robot_msgs/hook/ld_library_path_lib.ps1'
+[1.603s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/custom_robot_msgs/share/custom_robot_msgs/hook/ld_library_path_lib.dsv'
+[1.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/custom_robot_msgs/share/custom_robot_msgs/hook/ld_library_path_lib.sh'
+[1.603s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/custom_robot_msgs/bin'
+[1.603s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/custom_robot_msgs/lib/pkgconfig/custom_robot_msgs.pc'
+[1.603s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/custom_robot_msgs/lib/python3.10/site-packages'
+[1.603s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/custom_robot_msgs/bin'
+[1.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/custom_robot_msgs/share/custom_robot_msgs/package.ps1'
+[1.612s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/custom_robot_msgs/share/custom_robot_msgs/package.dsv'
+[1.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/custom_robot_msgs/share/custom_robot_msgs/package.sh'
+[1.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/custom_robot_msgs/share/custom_robot_msgs/package.bash'
+[1.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/custom_robot_msgs/share/custom_robot_msgs/package.zsh'
+[1.612s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sdc/Desktop/mocap4ros2_ws/Archive/install/custom_robot_msgs/share/colcon-core/packages/custom_robot_msgs)
+[1.647s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mocap4r2_msgs)
+[1.654s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/mocap4r2_msgs' for CMake module files
+[1.655s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/mocap4r2_msgs' for CMake config files
+[1.655s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap4r2_msgs', 'cmake_prefix_path')
+[1.662s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/mocap4r2_msgs/share/mocap4r2_msgs/hook/cmake_prefix_path.ps1'
+[1.662s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/mocap4r2_msgs/share/mocap4r2_msgs/hook/cmake_prefix_path.dsv'
+[1.662s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/mocap4r2_msgs/share/mocap4r2_msgs/hook/cmake_prefix_path.sh'
+[1.662s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/mocap4r2_msgs/lib'
+[1.662s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap4r2_msgs', 'ld_library_path_lib')
+[1.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/mocap4r2_msgs/share/mocap4r2_msgs/hook/ld_library_path_lib.ps1'
+[1.675s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/mocap4r2_msgs/share/mocap4r2_msgs/hook/ld_library_path_lib.dsv'
+[1.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/mocap4r2_msgs/share/mocap4r2_msgs/hook/ld_library_path_lib.sh'
+[1.675s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/mocap4r2_msgs/bin'
+[1.675s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/mocap4r2_msgs/lib/pkgconfig/mocap4r2_msgs.pc'
+[1.676s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/mocap4r2_msgs/lib/python3.10/site-packages'
+[1.676s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/mocap4r2_msgs/bin'
+[1.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/mocap4r2_msgs/share/mocap4r2_msgs/package.ps1'
+[1.683s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/mocap4r2_msgs/share/mocap4r2_msgs/package.dsv'
+[1.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/mocap4r2_msgs/share/mocap4r2_msgs/package.sh'
+[1.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/mocap4r2_msgs/share/mocap4r2_msgs/package.bash'
+[1.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/mocap4r2_msgs/share/mocap4r2_msgs/package.zsh'
+[1.684s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sdc/Desktop/mocap4ros2_ws/Archive/install/mocap4r2_msgs/share/colcon-core/packages/mocap4r2_msgs)
+[1.686s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sdc/Desktop/mocap4ros2_ws/Archive/pure_pursuit': PYTHONPATH=/home/sdc/Desktop/mocap4ros2_ws/Archive/build/pure_pursuit/prefix_override:/home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/pure_pursuit build --build-base /home/sdc/Desktop/mocap4ros2_ws/Archive/build/pure_pursuit/build install --record /home/sdc/Desktop/mocap4ros2_ws/Archive/build/pure_pursuit/install.log --single-version-externally-managed
+[1.687s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sdc/Desktop/mocap4ros2_ws/Archive/target_pid_controller': PYTHONPATH=/home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/prefix_override:/home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/target_pid_controller build --build-base /home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/build install --record /home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/install.log --single-version-externally-managed
+[1.847s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sdc/Desktop/mocap4ros2_ws/Archive/pure_pursuit' returned '0': PYTHONPATH=/home/sdc/Desktop/mocap4ros2_ws/Archive/build/pure_pursuit/prefix_override:/home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/pure_pursuit build --build-base /home/sdc/Desktop/mocap4ros2_ws/Archive/build/pure_pursuit/build install --record /home/sdc/Desktop/mocap4ros2_ws/Archive/build/pure_pursuit/install.log --single-version-externally-managed
+[1.855s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit' for CMake module files
+[1.855s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit' for CMake config files
+[1.855s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/lib'
+[1.855s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/bin'
+[1.855s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/lib/pkgconfig/pure_pursuit.pc'
+[1.855s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/lib/python3.10/site-packages'
+[1.855s] Level 1:colcon.colcon_core.shell:create_environment_hook('pure_pursuit', 'pythonpath')
+[1.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/share/pure_pursuit/hook/pythonpath.ps1'
+[1.863s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/share/pure_pursuit/hook/pythonpath.dsv'
+[1.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/share/pure_pursuit/hook/pythonpath.sh'
+[1.863s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/bin'
+[1.863s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pure_pursuit)
+[1.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/share/pure_pursuit/package.ps1'
+[1.870s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/share/pure_pursuit/package.dsv'
+[1.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/share/pure_pursuit/package.sh'
+[1.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/share/pure_pursuit/package.bash'
+[1.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/share/pure_pursuit/package.zsh'
+[1.871s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sdc/Desktop/mocap4ros2_ws/Archive/install/pure_pursuit/share/colcon-core/packages/pure_pursuit)
+[1.872s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sdc/Desktop/mocap4ros2_ws/Archive/target_pid_controller' returned '0': PYTHONPATH=/home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/prefix_override:/home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/target_pid_controller build --build-base /home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/build install --record /home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/install.log --single-version-externally-managed
+[1.878s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller' for CMake module files
+[1.878s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller' for CMake config files
+[1.878s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib'
+[1.879s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/bin'
+[1.879s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/pkgconfig/target_pid_controller.pc'
+[1.879s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/python3.10/site-packages'
+[1.879s] Level 1:colcon.colcon_core.shell:create_environment_hook('target_pid_controller', 'pythonpath')
+[1.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/share/target_pid_controller/hook/pythonpath.ps1'
+[1.886s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/share/target_pid_controller/hook/pythonpath.dsv'
+[1.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/share/target_pid_controller/hook/pythonpath.sh'
+[1.886s] Level 1:colcon.colcon_core.environment:checking '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/bin'
+[1.886s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(target_pid_controller)
+[1.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/share/target_pid_controller/package.ps1'
+[1.894s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/share/target_pid_controller/package.dsv'
+[1.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/share/target_pid_controller/package.sh'
+[1.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/share/target_pid_controller/package.bash'
+[1.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/share/target_pid_controller/package.zsh'
+[1.894s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/share/colcon-core/packages/target_pid_controller)
+[1.894s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.894s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.894s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.894s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.909s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.909s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.909s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.920s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.931s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/local_setup.ps1'
+[1.932s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/_local_setup_util_ps1.py'
+[1.932s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/setup.ps1'
+[1.940s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/local_setup.sh'
+[1.940s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/_local_setup_util_sh.py'
+[1.941s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/setup.sh'
+[1.948s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/local_setup.bash'
+[1.948s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/setup.bash'
+[1.956s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/local_setup.zsh'
+[1.956s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sdc/Desktop/mocap4ros2_ws/Archive/install/setup.zsh'

@@ -1,0 +1,77 @@
+[0.624s] Invoking command in '/home/sdc/Desktop/mocap4ros2_ws/Archive/target_pid_controller': PYTHONPATH=/home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/prefix_override:/home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/target_pid_controller build --build-base /home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/build install --record /home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/install.log --single-version-externally-managed
+[0.764s] running egg_info
+[0.764s] creating ../build/target_pid_controller/target_pid_controller.egg-info
+[0.765s] writing ../build/target_pid_controller/target_pid_controller.egg-info/PKG-INFO
+[0.765s] writing dependency_links to ../build/target_pid_controller/target_pid_controller.egg-info/dependency_links.txt
+[0.765s] writing entry points to ../build/target_pid_controller/target_pid_controller.egg-info/entry_points.txt
+[0.765s] writing requirements to ../build/target_pid_controller/target_pid_controller.egg-info/requires.txt
+[0.765s] writing top-level names to ../build/target_pid_controller/target_pid_controller.egg-info/top_level.txt
+[0.765s] writing manifest file '../build/target_pid_controller/target_pid_controller.egg-info/SOURCES.txt'
+[0.766s] reading manifest file '../build/target_pid_controller/target_pid_controller.egg-info/SOURCES.txt'
+[0.766s] writing manifest file '../build/target_pid_controller/target_pid_controller.egg-info/SOURCES.txt'
+[0.766s] running build
+[0.766s] running build_py
+[0.766s] creating /home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/build
+[0.766s] creating /home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/build/lib
+[0.767s] creating /home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/build/lib/target_pid_controller
+[0.767s] copying target_pid_controller/__init__.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/build/lib/target_pid_controller
+[0.767s] copying target_pid_controller/Command.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/build/lib/target_pid_controller
+[0.767s] copying target_pid_controller/Thread.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/build/lib/target_pid_controller
+[0.767s] copying target_pid_controller/Video.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/build/lib/target_pid_controller
+[0.767s] copying target_pid_controller/pid_controller.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/build/lib/target_pid_controller
+[0.767s] copying target_pid_controller/rigid_bodies.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/build/lib/target_pid_controller
+[0.767s] copying target_pid_controller/pid_controller_node_sub.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/build/lib/target_pid_controller
+[0.767s] copying target_pid_controller/params.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/build/lib/target_pid_controller
+[0.767s] copying target_pid_controller/pid_controller_node.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/build/lib/target_pid_controller
+[0.767s] copying target_pid_controller/tf_updater_node.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/build/lib/target_pid_controller
+[0.767s] copying target_pid_controller/target_node.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/build/lib/target_pid_controller
+[0.767s] running install
+[0.767s] running install_lib
+[0.768s] creating /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/python3.10/site-packages/target_pid_controller
+[0.768s] copying /home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/build/lib/target_pid_controller/pid_controller.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/python3.10/site-packages/target_pid_controller
+[0.768s] copying /home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/build/lib/target_pid_controller/__init__.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/python3.10/site-packages/target_pid_controller
+[0.768s] copying /home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/build/lib/target_pid_controller/Thread.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/python3.10/site-packages/target_pid_controller
+[0.768s] copying /home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/build/lib/target_pid_controller/rigid_bodies.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/python3.10/site-packages/target_pid_controller
+[0.768s] copying /home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/build/lib/target_pid_controller/pid_controller_node_sub.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/python3.10/site-packages/target_pid_controller
+[0.768s] copying /home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/build/lib/target_pid_controller/params.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/python3.10/site-packages/target_pid_controller
+[0.768s] copying /home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/build/lib/target_pid_controller/pid_controller_node.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/python3.10/site-packages/target_pid_controller
+[0.768s] copying /home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/build/lib/target_pid_controller/Command.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/python3.10/site-packages/target_pid_controller
+[0.768s] copying /home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/build/lib/target_pid_controller/Video.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/python3.10/site-packages/target_pid_controller
+[0.768s] copying /home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/build/lib/target_pid_controller/tf_updater_node.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/python3.10/site-packages/target_pid_controller
+[0.769s] copying /home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/build/lib/target_pid_controller/target_node.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/python3.10/site-packages/target_pid_controller
+[0.769s] byte-compiling /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/python3.10/site-packages/target_pid_controller/pid_controller.py to pid_controller.cpython-310.pyc
+[0.770s] byte-compiling /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/python3.10/site-packages/target_pid_controller/__init__.py to __init__.cpython-310.pyc
+[0.770s] byte-compiling /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/python3.10/site-packages/target_pid_controller/Thread.py to Thread.cpython-310.pyc
+[0.770s] byte-compiling /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/python3.10/site-packages/target_pid_controller/rigid_bodies.py to rigid_bodies.cpython-310.pyc
+[0.770s] byte-compiling /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/python3.10/site-packages/target_pid_controller/pid_controller_node_sub.py to pid_controller_node_sub.cpython-310.pyc
+[0.771s] byte-compiling /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/python3.10/site-packages/target_pid_controller/params.py to params.cpython-310.pyc
+[0.771s] byte-compiling /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/python3.10/site-packages/target_pid_controller/pid_controller_node.py to pid_controller_node.cpython-310.pyc
+[0.771s] byte-compiling /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/python3.10/site-packages/target_pid_controller/Command.py to Command.cpython-310.pyc
+[0.771s] byte-compiling /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/python3.10/site-packages/target_pid_controller/Video.py to Video.cpython-310.pyc
+[0.771s] byte-compiling /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/python3.10/site-packages/target_pid_controller/tf_updater_node.py to tf_updater_node.cpython-310.pyc
+[0.771s] byte-compiling /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/python3.10/site-packages/target_pid_controller/target_node.py to target_node.cpython-310.pyc
+[0.772s] running install_data
+[0.772s] creating /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/share
+[0.772s] creating /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/share/ament_index
+[0.772s] creating /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/share/ament_index/resource_index
+[0.772s] creating /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/share/ament_index/resource_index/packages
+[0.773s] copying resource/target_pid_controller -> /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/share/ament_index/resource_index/packages
+[0.773s] creating /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/share/target_pid_controller
+[0.773s] copying package.xml -> /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/share/target_pid_controller
+[0.773s] creating /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/share/target_pid_controller/launch
+[0.773s] copying launch/target_controller_sim_launch.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/share/target_pid_controller/launch
+[0.773s] copying launch/target_controller_launch.py -> /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/share/target_pid_controller/launch
+[0.773s] creating /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/share/target_pid_controller/config
+[0.773s] copying config/target_pid_controller_params.yaml -> /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/share/target_pid_controller/config
+[0.773s] copying config/target_pid_controller.yaml -> /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/share/target_pid_controller/config
+[0.773s] creating /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/share/target_pid_controller/config/rviz
+[0.773s] copying config/rviz/target_controller_rviz2.rviz -> /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/share/target_pid_controller/config/rviz
+[0.774s] running install_egg_info
+[0.774s] Copying ../build/target_pid_controller/target_pid_controller.egg-info to /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/python3.10/site-packages/target_pid_controller-0.0.0-py3.10.egg-info
+[0.774s] running install_scripts
+[0.785s] Installing connection_node script to /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/target_pid_controller
+[0.785s] Installing robot_controller script to /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/target_pid_controller
+[0.785s] Installing target_setter script to /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/target_pid_controller
+[0.785s] Installing tf_broadcaster script to /home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/target_pid_controller
+[0.785s] writing list of installed files to '/home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/install.log'
+[0.832s] Invoked command in '/home/sdc/Desktop/mocap4ros2_ws/Archive/target_pid_controller' returned '0': PYTHONPATH=/home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/prefix_override:/home/sdc/Desktop/mocap4ros2_ws/Archive/install/target_pid_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/target_pid_controller build --build-base /home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/build install --record /home/sdc/Desktop/mocap4ros2_ws/Archive/build/target_pid_controller/install.log --single-version-externally-managed

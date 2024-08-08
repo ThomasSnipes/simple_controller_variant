@@ -5,7 +5,6 @@ custom_robot_msgs.egg-info/SOURCES.txt
 custom_robot_msgs.egg-info/dependency_links.txt
 custom_robot_msgs.egg-info/top_level.txt
 custom_robot_msgs/msg/__init__.py
-custom_robot_msgs/msg/_num.py
 custom_robot_msgs/msg/_robot_command_msgs.py
 custom_robot_msgs/srv/__init__.py
 custom_robot_msgs/srv/_add_three_ints.py

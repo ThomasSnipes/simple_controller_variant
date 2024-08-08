@@ -1,0 +1,14 @@
+setup.py
+mocap4r2_msgs/__init__.py
+mocap4r2_msgs.egg-info/PKG-INFO
+mocap4r2_msgs.egg-info/SOURCES.txt
+mocap4r2_msgs.egg-info/dependency_links.txt
+mocap4r2_msgs.egg-info/top_level.txt
+mocap4r2_msgs/msg/__init__.py
+mocap4r2_msgs/msg/_imus_info.py
+mocap4r2_msgs/msg/_marker.py
+mocap4r2_msgs/msg/_markers.py
+mocap4r2_msgs/msg/_rigid_bodies.py
+mocap4r2_msgs/msg/_rigid_body.py
+mocap4r2_msgs/srv/__init__.py
+mocap4r2_msgs/srv/_create_rigid_body.py

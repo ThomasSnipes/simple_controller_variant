@@ -72,6 +72,60 @@ bool custom_robot_msgs__msg__robot_command_msgs__convert_from_py(PyObject * _pym
     ros_message->angular_velocity = (float)PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
+  {  // x
+    PyObject * field = PyObject_GetAttrString(_pymsg, "x");
+    if (!field) {
+      return false;
+    }
+    assert(PyFloat_Check(field));
+    ros_message->x = (float)PyFloat_AS_DOUBLE(field);
+    Py_DECREF(field);
+  }
+  {  // y
+    PyObject * field = PyObject_GetAttrString(_pymsg, "y");
+    if (!field) {
+      return false;
+    }
+    assert(PyFloat_Check(field));
+    ros_message->y = (float)PyFloat_AS_DOUBLE(field);
+    Py_DECREF(field);
+  }
+  {  // x_target
+    PyObject * field = PyObject_GetAttrString(_pymsg, "x_target");
+    if (!field) {
+      return false;
+    }
+    assert(PyFloat_Check(field));
+    ros_message->x_target = (float)PyFloat_AS_DOUBLE(field);
+    Py_DECREF(field);
+  }
+  {  // y_target
+    PyObject * field = PyObject_GetAttrString(_pymsg, "y_target");
+    if (!field) {
+      return false;
+    }
+    assert(PyFloat_Check(field));
+    ros_message->y_target = (float)PyFloat_AS_DOUBLE(field);
+    Py_DECREF(field);
+  }
+  {  // orientation
+    PyObject * field = PyObject_GetAttrString(_pymsg, "orientation");
+    if (!field) {
+      return false;
+    }
+    assert(PyFloat_Check(field));
+    ros_message->orientation = (float)PyFloat_AS_DOUBLE(field);
+    Py_DECREF(field);
+  }
+  {  // angle
+    PyObject * field = PyObject_GetAttrString(_pymsg, "angle");
+    if (!field) {
+      return false;
+    }
+    assert(PyFloat_Check(field));
+    ros_message->angle = (float)PyFloat_AS_DOUBLE(field);
+    Py_DECREF(field);
+  }
   {  // position
     PyObject * field = PyObject_GetAttrString(_pymsg, "position");
     if (!field) {
@@ -121,6 +175,72 @@ PyObject * custom_robot_msgs__msg__robot_command_msgs__convert_to_py(void * raw_
     field = PyFloat_FromDouble(ros_message->angular_velocity);
     {
       int rc = PyObject_SetAttrString(_pymessage, "angular_velocity", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // x
+    PyObject * field = NULL;
+    field = PyFloat_FromDouble(ros_message->x);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "x", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // y
+    PyObject * field = NULL;
+    field = PyFloat_FromDouble(ros_message->y);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "y", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // x_target
+    PyObject * field = NULL;
+    field = PyFloat_FromDouble(ros_message->x_target);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "x_target", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // y_target
+    PyObject * field = NULL;
+    field = PyFloat_FromDouble(ros_message->y_target);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "y_target", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // orientation
+    PyObject * field = NULL;
+    field = PyFloat_FromDouble(ros_message->orientation);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "orientation", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // angle
+    PyObject * field = NULL;
+    field = PyFloat_FromDouble(ros_message->angle);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "angle", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

@@ -37,16 +37,112 @@ private:
   ::custom_robot_msgs::msg::RobotCommandMsgs msg_;
 };
 
+class Init_RobotCommandMsgs_angle
+{
+public:
+  explicit Init_RobotCommandMsgs_angle(::custom_robot_msgs::msg::RobotCommandMsgs & msg)
+  : msg_(msg)
+  {}
+  Init_RobotCommandMsgs_position angle(::custom_robot_msgs::msg::RobotCommandMsgs::_angle_type arg)
+  {
+    msg_.angle = std::move(arg);
+    return Init_RobotCommandMsgs_position(msg_);
+  }
+
+private:
+  ::custom_robot_msgs::msg::RobotCommandMsgs msg_;
+};
+
+class Init_RobotCommandMsgs_orientation
+{
+public:
+  explicit Init_RobotCommandMsgs_orientation(::custom_robot_msgs::msg::RobotCommandMsgs & msg)
+  : msg_(msg)
+  {}
+  Init_RobotCommandMsgs_angle orientation(::custom_robot_msgs::msg::RobotCommandMsgs::_orientation_type arg)
+  {
+    msg_.orientation = std::move(arg);
+    return Init_RobotCommandMsgs_angle(msg_);
+  }
+
+private:
+  ::custom_robot_msgs::msg::RobotCommandMsgs msg_;
+};
+
+class Init_RobotCommandMsgs_y_target
+{
+public:
+  explicit Init_RobotCommandMsgs_y_target(::custom_robot_msgs::msg::RobotCommandMsgs & msg)
+  : msg_(msg)
+  {}
+  Init_RobotCommandMsgs_orientation y_target(::custom_robot_msgs::msg::RobotCommandMsgs::_y_target_type arg)
+  {
+    msg_.y_target = std::move(arg);
+    return Init_RobotCommandMsgs_orientation(msg_);
+  }
+
+private:
+  ::custom_robot_msgs::msg::RobotCommandMsgs msg_;
+};
+
+class Init_RobotCommandMsgs_x_target
+{
+public:
+  explicit Init_RobotCommandMsgs_x_target(::custom_robot_msgs::msg::RobotCommandMsgs & msg)
+  : msg_(msg)
+  {}
+  Init_RobotCommandMsgs_y_target x_target(::custom_robot_msgs::msg::RobotCommandMsgs::_x_target_type arg)
+  {
+    msg_.x_target = std::move(arg);
+    return Init_RobotCommandMsgs_y_target(msg_);
+  }
+
+private:
+  ::custom_robot_msgs::msg::RobotCommandMsgs msg_;
+};
+
+class Init_RobotCommandMsgs_y
+{
+public:
+  explicit Init_RobotCommandMsgs_y(::custom_robot_msgs::msg::RobotCommandMsgs & msg)
+  : msg_(msg)
+  {}
+  Init_RobotCommandMsgs_x_target y(::custom_robot_msgs::msg::RobotCommandMsgs::_y_type arg)
+  {
+    msg_.y = std::move(arg);
+    return Init_RobotCommandMsgs_x_target(msg_);
+  }
+
+private:
+  ::custom_robot_msgs::msg::RobotCommandMsgs msg_;
+};
+
+class Init_RobotCommandMsgs_x
+{
+public:
+  explicit Init_RobotCommandMsgs_x(::custom_robot_msgs::msg::RobotCommandMsgs & msg)
+  : msg_(msg)
+  {}
+  Init_RobotCommandMsgs_y x(::custom_robot_msgs::msg::RobotCommandMsgs::_x_type arg)
+  {
+    msg_.x = std::move(arg);
+    return Init_RobotCommandMsgs_y(msg_);
+  }
+
+private:
+  ::custom_robot_msgs::msg::RobotCommandMsgs msg_;
+};
+
 class Init_RobotCommandMsgs_angular_velocity
 {
 public:
   explicit Init_RobotCommandMsgs_angular_velocity(::custom_robot_msgs::msg::RobotCommandMsgs & msg)
   : msg_(msg)
   {}
-  Init_RobotCommandMsgs_position angular_velocity(::custom_robot_msgs::msg::RobotCommandMsgs::_angular_velocity_type arg)
+  Init_RobotCommandMsgs_x angular_velocity(::custom_robot_msgs::msg::RobotCommandMsgs::_angular_velocity_type arg)
   {
     msg_.angular_velocity = std::move(arg);
-    return Init_RobotCommandMsgs_position(msg_);
+    return Init_RobotCommandMsgs_x(msg_);
   }
 
 private:

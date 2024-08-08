@@ -43,6 +43,48 @@ inline void to_flow_style_yaml(
     out << ", ";
   }
 
+  // member: x
+  {
+    out << "x: ";
+    rosidl_generator_traits::value_to_yaml(msg.x, out);
+    out << ", ";
+  }
+
+  // member: y
+  {
+    out << "y: ";
+    rosidl_generator_traits::value_to_yaml(msg.y, out);
+    out << ", ";
+  }
+
+  // member: x_target
+  {
+    out << "x_target: ";
+    rosidl_generator_traits::value_to_yaml(msg.x_target, out);
+    out << ", ";
+  }
+
+  // member: y_target
+  {
+    out << "y_target: ";
+    rosidl_generator_traits::value_to_yaml(msg.y_target, out);
+    out << ", ";
+  }
+
+  // member: orientation
+  {
+    out << "orientation: ";
+    rosidl_generator_traits::value_to_yaml(msg.orientation, out);
+    out << ", ";
+  }
+
+  // member: angle
+  {
+    out << "angle: ";
+    rosidl_generator_traits::value_to_yaml(msg.angle, out);
+    out << ", ";
+  }
+
   // member: position
   {
     out << "position: ";
@@ -72,6 +114,66 @@ inline void to_block_style_yaml(
     }
     out << "angular_velocity: ";
     rosidl_generator_traits::value_to_yaml(msg.angular_velocity, out);
+    out << "\n";
+  }
+
+  // member: x
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "x: ";
+    rosidl_generator_traits::value_to_yaml(msg.x, out);
+    out << "\n";
+  }
+
+  // member: y
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "y: ";
+    rosidl_generator_traits::value_to_yaml(msg.y, out);
+    out << "\n";
+  }
+
+  // member: x_target
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "x_target: ";
+    rosidl_generator_traits::value_to_yaml(msg.x_target, out);
+    out << "\n";
+  }
+
+  // member: y_target
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "y_target: ";
+    rosidl_generator_traits::value_to_yaml(msg.y_target, out);
+    out << "\n";
+  }
+
+  // member: orientation
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "orientation: ";
+    rosidl_generator_traits::value_to_yaml(msg.orientation, out);
+    out << "\n";
+  }
+
+  // member: angle
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "angle: ";
+    rosidl_generator_traits::value_to_yaml(msg.angle, out);
     out << "\n";
   }
 

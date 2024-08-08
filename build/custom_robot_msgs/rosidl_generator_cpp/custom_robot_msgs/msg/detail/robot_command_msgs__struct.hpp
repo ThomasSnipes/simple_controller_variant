@@ -45,6 +45,12 @@ struct RobotCommandMsgs_
     {
       this->linear_velocity = 0.0f;
       this->angular_velocity = 0.0f;
+      this->x = 0.0f;
+      this->y = 0.0f;
+      this->x_target = 0.0f;
+      this->y_target = 0.0f;
+      this->orientation = 0.0f;
+      this->angle = 0.0f;
     }
   }
 
@@ -56,6 +62,12 @@ struct RobotCommandMsgs_
     {
       this->linear_velocity = 0.0f;
       this->angular_velocity = 0.0f;
+      this->x = 0.0f;
+      this->y = 0.0f;
+      this->x_target = 0.0f;
+      this->y_target = 0.0f;
+      this->orientation = 0.0f;
+      this->angle = 0.0f;
     }
   }
 
@@ -66,6 +78,24 @@ struct RobotCommandMsgs_
   using _angular_velocity_type =
     float;
   _angular_velocity_type angular_velocity;
+  using _x_type =
+    float;
+  _x_type x;
+  using _y_type =
+    float;
+  _y_type y;
+  using _x_target_type =
+    float;
+  _x_target_type x_target;
+  using _y_target_type =
+    float;
+  _y_target_type y_target;
+  using _orientation_type =
+    float;
+  _orientation_type orientation;
+  using _angle_type =
+    float;
+  _angle_type angle;
   using _position_type =
     geometry_msgs::msg::Point_<ContainerAllocator>;
   _position_type position;
@@ -81,6 +111,42 @@ struct RobotCommandMsgs_
     const float & _arg)
   {
     this->angular_velocity = _arg;
+    return *this;
+  }
+  Type & set__x(
+    const float & _arg)
+  {
+    this->x = _arg;
+    return *this;
+  }
+  Type & set__y(
+    const float & _arg)
+  {
+    this->y = _arg;
+    return *this;
+  }
+  Type & set__x_target(
+    const float & _arg)
+  {
+    this->x_target = _arg;
+    return *this;
+  }
+  Type & set__y_target(
+    const float & _arg)
+  {
+    this->y_target = _arg;
+    return *this;
+  }
+  Type & set__orientation(
+    const float & _arg)
+  {
+    this->orientation = _arg;
+    return *this;
+  }
+  Type & set__angle(
+    const float & _arg)
+  {
+    this->angle = _arg;
     return *this;
   }
   Type & set__position(
@@ -136,6 +202,24 @@ struct RobotCommandMsgs_
       return false;
     }
     if (this->angular_velocity != other.angular_velocity) {
+      return false;
+    }
+    if (this->x != other.x) {
+      return false;
+    }
+    if (this->y != other.y) {
+      return false;
+    }
+    if (this->x_target != other.x_target) {
+      return false;
+    }
+    if (this->y_target != other.y_target) {
+      return false;
+    }
+    if (this->orientation != other.orientation) {
+      return false;
+    }
+    if (this->angle != other.angle) {
       return false;
     }
     if (this->position != other.position) {

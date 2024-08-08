@@ -60,6 +60,18 @@ cdr_serialize(
   cdr << ros_message.linear_velocity;
   // Member: angular_velocity
   cdr << ros_message.angular_velocity;
+  // Member: x
+  cdr << ros_message.x;
+  // Member: y
+  cdr << ros_message.y;
+  // Member: x_target
+  cdr << ros_message.x_target;
+  // Member: y_target
+  cdr << ros_message.y_target;
+  // Member: orientation
+  cdr << ros_message.orientation;
+  // Member: angle
+  cdr << ros_message.angle;
   // Member: position
   geometry_msgs::msg::typesupport_fastrtps_cpp::cdr_serialize(
     ros_message.position,
@@ -78,6 +90,24 @@ cdr_deserialize(
 
   // Member: angular_velocity
   cdr >> ros_message.angular_velocity;
+
+  // Member: x
+  cdr >> ros_message.x;
+
+  // Member: y
+  cdr >> ros_message.y;
+
+  // Member: x_target
+  cdr >> ros_message.x_target;
+
+  // Member: y_target
+  cdr >> ros_message.y_target;
+
+  // Member: orientation
+  cdr >> ros_message.orientation;
+
+  // Member: angle
+  cdr >> ros_message.angle;
 
   // Member: position
   geometry_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize(
@@ -108,6 +138,42 @@ get_serialized_size(
   // Member: angular_velocity
   {
     size_t item_size = sizeof(ros_message.angular_velocity);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // Member: x
+  {
+    size_t item_size = sizeof(ros_message.x);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // Member: y
+  {
+    size_t item_size = sizeof(ros_message.y);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // Member: x_target
+  {
+    size_t item_size = sizeof(ros_message.x_target);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // Member: y_target
+  {
+    size_t item_size = sizeof(ros_message.y_target);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // Member: orientation
+  {
+    size_t item_size = sizeof(ros_message.orientation);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // Member: angle
+  {
+    size_t item_size = sizeof(ros_message.angle);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -150,6 +216,60 @@ max_serialized_size_RobotCommandMsgs(
   }
 
   // Member: angular_velocity
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+
+  // Member: x
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+
+  // Member: y
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+
+  // Member: x_target
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+
+  // Member: y_target
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+
+  // Member: orientation
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+
+  // Member: angle
   {
     size_t array_size = 1;
 
