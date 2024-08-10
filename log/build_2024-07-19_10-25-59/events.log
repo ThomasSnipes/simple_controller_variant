@@ -1,5 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000293] (-) JobUnselected: {'identifier': 'custom_robot_msgs'}
-[0.000311] (-) JobUnselected: {'identifier': 'pure_pursuit'}
-[0.000319] (-) JobUnselected: {'identifier': 'target_pid_controller'}
-[0.000327] (-) EventReactorShutdown: {}
